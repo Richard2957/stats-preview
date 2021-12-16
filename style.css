@@ -116,15 +116,20 @@ footer{
 
     .main-image{
         background: url("images/image-header-desktop.jpg") ;
-        width:80vw;
-        height:auto;
+        height:70vh;
+width:100%;
         background-repeat: no-repeat;
         background-size: cover;
         background-color: var(--accent);
             background-blend-mode: multiply;
+            border-radius: 0;;
     }
 
     .stats{
         flex-direction: row;
+    }
+
+    .text{
+        margin: 10% 0;
     }
 }
